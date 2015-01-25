@@ -31,6 +31,6 @@ class Parser
 
     public static function exec($str)
     {
-        return strtr($str, self::$unwanted_array);
+        return strtr($str, self::$unwanted);
     }
 }
