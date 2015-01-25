@@ -29,7 +29,7 @@ class Parser
         'Ž'=>'Z', 'ž'=>'z', 'Ż' => 'Z', 'ż' => 'z', 'Ź' => 'Z', 'ź' => 'z'
     );
 
-    public static exec($str)
+    public static function exec($str)
     {
         return strtr($str, self::$unwanted_array);
     }
