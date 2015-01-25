@@ -1,6 +1,6 @@
 # Replace Accentuation
 
-## To use
+**To use**
 
 Add in your composer.json
 
