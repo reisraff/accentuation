@@ -19,8 +19,8 @@
         "issues": "https://github.com/rafreis/replace_accentuation/issues"
     },
     "autoload" : {
-        "psr-4" : {
-            "" : "src/"
+        "psr-0" : {
+            "ReplaceAccentuation\\" : "src/"
         }
     }
 }
