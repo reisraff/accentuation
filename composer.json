@@ -12,15 +12,15 @@
         {
             "name":  "Rafael Reis",
             "email": "rafaelreis.jesus@gmail.com",
-            "website": "http://www.rafaelkings.com.br/"
+            "homepage": "http://www.rafaelkings.com.br/"
         }
     ],
     "support": {
         "issues": "https://github.com/rafreis/replace_accentuation/issues"
     },
     "autoload" : {
-        "psr-0" : {
-            "ReplaceAccentuation\\" : "src/"
+        "psr-4" : {
+            "" : "src/"
         }
     }
 }
