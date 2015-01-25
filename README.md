@@ -4,26 +4,26 @@
 
 Add in your composer.json
 
-    ```json
-    "require" : {
-        "rafreis/replace_accentuation" : ">=1.0.0"
-    }
-    ```
+```json
+"require" : {
+    "rafreis/replace_accentuation" : ">=1.0.0"
+}
+```
 
 Using in your code
 
-    ```php
-    <?php
+```php
+<?php
 
-    namespace MyNameSpace;
+namespace MyNameSpace;
 
-    use ReplaceAccentuation\Parser;
+use ReplaceAccentuation\Parser;
 
-    class MyClass
+class MyClass
+{
+    public function test()
     {
-        public function test()
-        {
-            return Parser::exec('This string will be returned without accentuation áéíóú');
-        }
+        return Parser::exec('This string will be returned without accentuation áéíóú');
     }
-    ```
+}
+```
