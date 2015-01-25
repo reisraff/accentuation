@@ -1,7 +1,9 @@
 {
     "name": "rafreis/replace_accentuation",
     "homepage": "https://github.com/rafreis/replace_accentuation",
+    "keywords": ["package", "parser", "accentuation"],
     "type": "library",
+    "license": "MIT",
     "description": "This repository works making a parser in some string replacing the accented characters",
     "require": {
         "php": ">=5.3.0"
@@ -13,6 +15,9 @@
             "website": "http://www.rafaelkings.com.br/"
         }
     ],
+    "support": {
+        "issues": "https://github.com/rafreis/replace_accentuation/issues"
+    },
     "autoload" : {
         "psr-4" : {
             "" : "src/"
