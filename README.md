@@ -8,7 +8,7 @@ Add in your composer.json
 
 ```json
 "require" : {
-    "rafreis/accentuation" : ">=1.0.0"
+    "rafreis/accentuation" : ">=2.0.0"
 }
 ```
 
