@@ -1,4 +1,6 @@
-# Replace Accentuation
+# Accentuation
+
+This library works by replacing all accented characters to not accented characters.
 
 **To use**
 
@@ -6,7 +8,7 @@ Add in your composer.json
 
 ```json
 "require" : {
-    "rafreis/replace_accentuation" : ">=2.0.1"
+    "rafreis/accentuation" : ">=1.0.0"
 }
 ```
 
@@ -17,13 +19,13 @@ Using in your code
 
 namespace MyNameSpace;
 
-use ReplaceAccentuation\Parser;
+use Accentuation\Accentuation;
 
 class MyClass
 {
     public function test()
     {
-        return Parser::exec('This string will be returned without accentuation áéíóú');
+        return Accentuation::remove('This string will be returned without accentuation áéíóú');
     }
 }
 ```

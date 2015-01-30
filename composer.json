@@ -1,7 +1,7 @@
 {
-    "name": "rafreis/replace_accentuation",
-    "homepage": "https://github.com/rafreis/replace_accentuation",
-    "keywords": ["package", "parser", "accentuation"],
+    "name": "rafreis/accentuation",
+    "homepage": "https://github.com/rafreis/accentuation",
+    "keywords": ["package", "parser", "remove", "replace", "accentuation"],
     "type": "library",
     "license": "MIT",
     "description": "This repository works making a parser in some string replacing the accented characters",
@@ -16,7 +16,7 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/rafreis/replace_accentuation/issues"
+        "issues": "https://github.com/rafreis/accentuation/issues"
     },
     "autoload" : {
         "psr-4" : {
