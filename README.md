@@ -10,7 +10,7 @@ Add in your composer.json
 
 ```json
 "require" : {
-    "reisraff/accentuation" : ">=2.0.1"
+    "reisraff/accentuation" : ">=2.0.2"
 }
 ```
 
