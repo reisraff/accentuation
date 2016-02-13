@@ -1,6 +1,6 @@
 {
-    "name": "rafreis/accentuation",
-    "homepage": "https://github.com/rafreis/accentuation",
+    "name": "reisraff/accentuation",
+    "homepage": "https://github.com/reisraff/accentuation",
     "keywords": ["package", "parser", "remove", "replace", "accentuation"],
     "type": "library",
     "license": "MIT",
@@ -11,16 +11,23 @@
     "authors": [
         {
             "name":  "Rafael Reis",
-            "email": "rafaelreis.jesus@gmail.com",
-            "homepage": "http://www.rafaelkings.com.br/"
+            "email": "reisraff@gmail.com",
+            "homepage": "http://reisraff.github.io/"
         }
     ],
     "support": {
-        "issues": "https://github.com/rafreis/accentuation/issues"
+        "issues": "https://github.com/reisraff/accentuation/issues"
     },
     "autoload" : {
         "psr-4" : {
             "" : "src/"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.5.*",
+        "phpmd/phpmd": "2.1.*",
+        "phploc/phploc": "2.0.*",
+        "sebastian/phpcpd": "2.0.*",
+        "squizlabs/php_codesniffer": "2.0.*@dev"
     }
 }
