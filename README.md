@@ -1,6 +1,6 @@
 # Accentuation
 
-[![Latest Stable Version](https://poser.pugx.org/reisraff/accentuation/v/stable)](https://packagist.org/packages/reisraff/accentuation) [![Total Downloads](https://poser.pugx.org/reisraff/accentuation/downloads)](https://packagist.org/packages/reisraff/accentuation) [![Latest Unstable Version](https://poser.pugx.org/reisraff/accentuation/v/unstable)](https://packagist.org/packages/reisraff/accentuation) [![License](https://poser.pugx.org/reisraff/accentuation/license)](https://packagist.org/packages/reisraff/accentuation)[![Build Status](https://travis-ci.org/reisraff/accentuation.svg?branch=master)](https://travis-ci.org/reisraff/accentuation)
+[![Latest Stable Version](https://poser.pugx.org/reisraff/accentuation/v/stable)](https://packagist.org/packages/reisraff/accentuation) [![Total Downloads](https://poser.pugx.org/reisraff/accentuation/downloads)](https://packagist.org/packages/reisraff/accentuation) [![Latest Unstable Version](https://poser.pugx.org/reisraff/accentuation/v/unstable)](https://packagist.org/packages/reisraff/accentuation) [![License](https://poser.pugx.org/reisraff/accentuation/license)](https://packagist.org/packages/reisraff/accentuation) [![Build Status](https://travis-ci.org/reisraff/accentuation.svg?branch=master)](https://travis-ci.org/reisraff/accentuation)
 
 This library works by replacing all accented characters to not accented characters.
 
