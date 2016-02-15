@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Accentuation by reisraff</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>Accentuation</h1>
+        <p>This repository works making a parser in some string replacing the accented characters</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/reisraff/accentuation" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/reisraff/accentuation/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/reisraff/accentuation/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h1>
+<a id="accentuation" class="anchor" href="#accentuation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Accentuation</h1>
+
+<p><a href="https://packagist.org/packages/reisraff/accentuation"><img src="https://poser.pugx.org/reisraff/accentuation/v/stable" alt="Latest Stable Version"></a> <a href="https://packagist.org/packages/reisraff/accentuation"><img src="https://poser.pugx.org/reisraff/accentuation/downloads" alt="Total Downloads"></a> <a href="https://packagist.org/packages/reisraff/accentuation"><img src="https://poser.pugx.org/reisraff/accentuation/v/unstable" alt="Latest Unstable Version"></a> <a href="https://packagist.org/packages/reisraff/accentuation"><img src="https://poser.pugx.org/reisraff/accentuation/license" alt="License"></a> <a href="https://travis-ci.org/reisraff/accentuation"><img src="https://travis-ci.org/reisraff/accentuation.svg?branch=master" alt="Build Status"></a></p>
+
+<p>This library works by replacing all accented characters to not accented characters.</p>
+
+<p><strong>To use</strong></p>
+
+<p>Add in your composer.json</p>
+
+<div class="highlight highlight-source-json"><pre><span class="pl-s"><span class="pl-pds">"</span>require<span class="pl-pds">"</span></span> : {
+    <span class="pl-s"><span class="pl-pds">"</span>reisraff/accentuation<span class="pl-pds">"</span></span> : <span class="pl-s"><span class="pl-pds">"</span>&gt;=2.0.2<span class="pl-pds">"</span></span>
+}</pre></div>
+
+<p><strong>Using in your code</strong></p>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-pse">&lt;?php</span><span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-k">namespace</span> <span class="pl-en">MyNameSpace</span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">Accentuation\Accentuation</span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-k">class</span> <span class="pl-en">MyClass</span></span>
+<span class="pl-s1">{</span>
+<span class="pl-s1">    <span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-en">test</span>()</span>
+<span class="pl-s1">    {</span>
+<span class="pl-s1">        <span class="pl-k">return</span> <span class="pl-c1">Accentuation</span><span class="pl-k">::</span>remove(<span class="pl-s"><span class="pl-pds">'</span>This string will be returned without accentuation áéíóú<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1">    }</span>
+<span class="pl-s1">}</span></pre></div>
+
+<p><strong>Tests</strong></p>
+
+<p>To run the test suite, you need install the dependencies via composer, then
+run PHPUnit.</p>
+
+<pre><code>$ composer install
+$ phpunit
+</code></pre>
+
+<p>You can also use the following command to run the most common QA checks, such as
+<code>php -l</code>, <code>phpcs</code>, <code>phpunit</code>:</p>
+
+<pre><code>$ ant check
+</code></pre>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/reisraff">reisraff</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
